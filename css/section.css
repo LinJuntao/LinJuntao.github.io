@@ -1,0 +1,300 @@
+section .contain>li {
+	width: 100%;
+	/*height: 500px;*/
+	position: relative;
+	list-style: none;
+}
+
+section .contain #first {
+	/*background-color: chartreuse;*/
+	background: url(../img/first-bg.png);
+}
+
+section .contain #second {
+	/*background-color: darkcyan;*/
+	background: url(../img/second-bg.png);
+}
+
+section .contain #third {
+	/*background-color: saddlebrown;*/
+	background: url(../img/third-bg.png);
+}
+
+section .contain #four {
+	/*background-color: firebrick;*/
+	background: url(../img/fourth-bg.png);
+}
+
+section .contain>li>div {
+	background-color: rgba(41, 51, 63, 0.6);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section .contain .bk1 {
+	bottom: 0px;
+}
+section .contain .bk1 #text1{
+	position: absolute;
+	top: 20%;
+	left: 80px;
+}
+section .contain .bk1 #text1>h1{
+	font-weight: normal;
+	color: white;
+	font-size: 50px;
+	display: block;
+	float: left;
+}
+section .contain .bk1 #text1>p{
+	width: 250px;
+	height: 60px;
+	color: white;
+	font-size: 18px;
+	float: left;
+	line-height: 90px;
+	margin-left: 20px;
+	border-bottom: 1px solid gainsboro;
+}
+section .contain .bk1>div{
+	width: 630px;
+	height: 270px;
+	background-color: rgba(69,88,113,0.7);
+	position: absolute;
+	bottom: 50px;
+	right: -40px;
+}
+section .contain .bk1>div>h4{
+	width: 100px;
+	height: 30px;
+	font-weight: normal;
+	font-size: 23px;
+	color: white;
+	margin: 20px 0px 30px 10px;
+	border-bottom: 2px solid gainsboro;
+}
+section .contain .bk1>div>p{
+	width: 400px;
+	height: 170px;
+	color: white;
+	margin-left: 10px;
+}
+section .contain .bk1>div>img{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+section .contain .bk1>div>a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: #fa5252;
+	font-size: 13px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+}
+section .contain .bk2 {
+	top: 0px;
+}
+
+section .contain .bk2 #text2 {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+section .contain .bk2 #text2>h1 {
+	font-weight: normal;
+	color: white;
+	font-size: 40px;
+	display: block;
+	float: left;
+}
+
+section .contain .bk2 #text2>h3 {
+	font-weight: normal;
+	color: white;
+	font-size: 16px;
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 70px;
+	margin-left: 10px;
+}
+
+section .contain .bk2>div {
+	width: 660px;
+	height: 280px;
+	background: url(../img/about-image.png) repeat scroll top left;
+	position: absolute;
+	bottom: -20px;
+	left: -20px;
+}
+
+section .contain .bk2>div>span {
+	display: block;
+	width: 450px;
+	height: 180px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	bottom: -50px;
+	right: -160px;
+}
+
+section .contain .bk2>div>span>h2 {
+	font-weight: normal;
+	color: black;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	display: block;
+	width: 170px;
+	height: 25px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid darkgray;
+}
+
+section .contain .bk2>div>span>p {
+	width: 380px;
+	height: 80px;
+	font-size: 14px;
+	color: rgb(52, 52, 52);
+	font-family: "微软雅黑";
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+section .contain .bk2>div>span>a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: #fa5252;
+	font-size: 13px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+section .contain .bk3 {
+	top: 0;
+	position: relative;
+}
+section .contain .bk3>h1{
+	font-weight: normal;
+	color: white;
+	font-size: 40px;
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+section .contain .bk3 .fq {
+	width: 803px;
+	height: 320px;
+	box-shadow: 0 0 10px black;
+	overflow: hidden;
+	position: absolute;
+	bottom: 30px;
+	left: -30px;
+}
+
+section .contain .bk3 .fq>li {
+	float: left;
+	list-style: none;
+	width: 150px;
+	border-left: 1px solid gray;
+	transition: all 1s;
+	position: relative;
+}
+section .contain .bk3 .fq>li>span{
+				display: block;
+				width: 640px;
+				height: 100px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				/*使用padding上下距离一样就是垂直居中*/
+				padding: 10px 0px 10px 10px ;
+				background-color: rgba(0,0,0,0.5);
+				color: white;
+}
+section .contain .bk3 .fq>li>span>p{
+	width: 600px;
+	height: 80px;
+	text-align: center;
+}
+section .contain .bk3 .fq>li>span>a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	background-color: #fa5252;
+	font-size: 13px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+/*先把所有li变短*/
+section .contain .bk3 .fq:hover>li {
+	width: 53px;
+}
+
+
+/*再把摸到的当前li变长*/
+
+section .contain .bk3 .fq>li:hover {
+	width: 640px;
+}
+section .contain .bk1>div>a:hover{
+	background-color: white;
+	color: #fa5252;
+	border: 1px solid #fa5252;
+}
+section .contain .bk2>div>span>a:hover{
+	background-color: white;
+	color: #fa5252;
+	border: 1px solid #fa5252;
+}
+section .contain .bk3 .fq>li>span>a:hover{
+	background-color: white;
+	color: #fa5252;
+	border: 1px solid #fa5252;
+	}
+	section .contain .bk4{
+		top: 50px;
+	}
+section .contain .bk4>h1{
+	font-weight: normal;
+	color: white;
+	font-size: 40px;
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+section .contain .bk4>p{
+	width: 550px;
+	height: 160px;
+	font-size: 25px;
+	padding: 20px 0 20px 20px;
+	color: white;
+	background-color: rgba(56,64,77,0.4);
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+}

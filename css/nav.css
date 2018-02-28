@@ -1,0 +1,40 @@
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.nav_div{
+	width: 100px;
+	height: 100px;
+	background: url(../img/aovet-icon.png) #455871 no-repeat 50% 50%;
+}
+
+.nva_list{
+	display: none;
+	position: relative;
+}
+.nva_list>li{
+	width: 100px;
+	/*height: 100px;*/
+	background-color: #455871;
+	list-style: none;
+	position: relative;
+}
+.nva_list>li>a{
+	display: block;
+	width: 100px;
+	/*height: 100px;*/
+}
+.nva_list>li>a>img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.nva_list>li>a:hover{
+	background-color: coral;
+}
+
